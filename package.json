@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "next",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "next build",
+    "export": "next build && next export"
   },
-  "homepage": "http://AndChurchville.github.io/CoronaCaseUpdate",
   "author": "",
   "license": "ISC",
   "dependencies": {
