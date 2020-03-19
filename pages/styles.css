@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Sen:700&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body {
+   font-family: 'Sen', sans-serif;
+  }
+  .header, .footer{
+    text-align: center;
+    background-color: #216f9c;
+  }
+  .header{
+    padding: 20px;
+    color: white;
+  }
+
+  a{
+    text-decoration: none;
+    color: #add8e6;
+  }
+  a:hover{
+    color: #d0e8f0;
+  }
+
+  .caseContainer{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+  .worldCases{ 
+    padding: 2em;
+    background-color: #ffffff;
+    flex: 0 0 50%;
+  }
+  .countryCases{
+    padding: 2em;
+    background-color: #ffffff;
+    flex: 0 0 50%;
+  }
+  .countryCases h1{
+   margin-bottom: .5em;
+  }
+  select{
+    font-size: 1 rem;
+    font-weight: 700;
+    margin:0;
+    padding: .6em 1.4em .5em .8em;
+    border-radius: .5em;
+  }
+  .titleCountry{
+    margin-top: 1.5rem;
+  }
+
+  .statContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .statBlock{
+    margin-top: 1.5em;
+    text-align: center;
+  }
+  .statBlock h3, span{
+    font-size: 2rem;
+    
+  }
+  .confirmed{
+    background-color: #0fb9be;
+    color: white;
+    padding: 1em;
+    border-radius: .5em;
+    
+  }
+  .deaths{
+    background-color:  #241918;
+    color: white;
+    padding: 1em;
+    border-radius: .5em;
+  }
+  .recovered{
+    background-color: #30b467;
+    color: white;
+    padding: 1em;
+    border-radius: .5em;
+  }
+  
+  .footer{
+    padding: 20px;
+    color: white;
+   line-height: 2em;
+   font-size: 1.5em;
+  }
+
+  @media only screen and (max-width: 1020px){
+    .statContainer{
+      display: block;
+    }
+    select{
+      width: 100px;
+    }
+  }
+  
+  
