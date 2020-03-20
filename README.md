@@ -1,5 +1,5 @@
 # Corona Case Tracker
- React app that shows the latest Corona cases around the world.
+ React, Next, Hooks app that shows the latest Corona cases around the world.
 
 Statistics show how many cases of confirmed, deaths, and recovered. 
 

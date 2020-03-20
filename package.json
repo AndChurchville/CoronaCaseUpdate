@@ -1,4 +1,5 @@
 {
+  "homepage": "http://AndChurchville.github.io/CoronaCaseUpdate",
   "name": "corona-update",
   "version": "1.0.0",
   "description": "learning api through displaying news data",
@@ -6,9 +7,10 @@
   "scripts": {
     "start": "next",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "next build && next export"
   },
-  "homepage": "http://AndChurchville.github.io/CoronaCaseUpdate",
+  
   "author": "",
   "license": "ISC",
   "dependencies": {

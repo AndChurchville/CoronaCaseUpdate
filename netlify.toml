@@ -1,0 +1,4 @@
+[build]
+base = "corona-update/"
+publish = "corona-update/build/"
+command = "run deploy"
