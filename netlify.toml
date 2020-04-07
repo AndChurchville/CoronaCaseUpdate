@@ -1,4 +1,0 @@
-[build]
-base = "corona-update/"
-publish = "corona-update/index.js/"
-command = "yarn build"

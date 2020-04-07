@@ -1,4 +1,4 @@
-import Stats from '../components/Stats';
+import  Stats  from '../components/Stats';
 import CountrySelector from '../components/CountrySelector';
 import Head from 'next/head';
 
