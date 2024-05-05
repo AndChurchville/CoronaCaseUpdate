@@ -20,6 +20,6 @@
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^5.0.0"
   }
 }
